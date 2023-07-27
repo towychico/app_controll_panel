@@ -1,0 +1,51 @@
+.appContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.Exam-builder-container{
+    width: 100vw;
+    height: 100vh;
+    background: #ef1e1e;
+    display: flex;
+
+}
+.container-left{
+
+    background: #ffffff;
+    height: 100vh;
+    width: 70%;
+}
+.container-right{
+    background: #f1f1f1;
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lateral-bar {
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-color: #a0a1ad;
+    width: 5%;
+    position: absolute;
+    height: 100%;
+}
+.bar-img {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    align-items: center;
+    cursor: pointer;
+}
+.home-img {
+    top: 2%;
+    width: 80%;
+}
+.exit-img {
+    bottom: 2%;
+    width: 70%;
+}

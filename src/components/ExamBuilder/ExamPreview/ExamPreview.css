@@ -1,0 +1,68 @@
+.exam-preview-container{
+    width: 75%;
+    height: 80vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav_container{
+    width: 100%;
+    height: 10%;
+    background: #ffffff;
+}
+.text_container{
+    width: 100%;
+    height: 35%;
+    background: #ffffff;
+}
+.answers_container{
+    width: 100%;
+    height: 45%;
+    background: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.answer{
+    border:solid 4px #797C93;
+    min-width: 10vh;
+    width: 40vh;
+    border-radius: 12px;
+}
+.bottom-bar {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    width: 47.7vh;
+    position: absolute;
+    height: 7%;
+}
+.bar-img {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    align-items: center;
+    cursor: pointer;
+}
+.right-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    bottom: 1%;
+    right: 2%;
+    top: 20%;
+    width: 10%;
+}
+.left-img {
+    display: flex;
+    margin-left: 0px;
+    margin-right: auto;
+    bottom: 1%;
+    left: 2%;
+    top: 20%;
+    width: 10%;
+}
